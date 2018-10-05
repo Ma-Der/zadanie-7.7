@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::before
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  border: none;
+}
+
+.row::before, .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  border: none;
+  float: left;
+  height: auto;
+  margin: 0 auto;
+  min-height: 1px;
+  overflow: auto;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-offset-0 {
+  width: 0%;
+}
+
+.col-offset-1 {
+  width: 8.33333%;
+}
+
+.col-offset-2 {
+  width: 16.66667%;
+}
+
+.col-offset-3 {
+  width: 25%;
+}
+
+.col-offset-4 {
+  width: 33.33333%;
+}
+
+.col-offset-5 {
+  width: 41.66667%;
+}
+
+.col-offset-6 {
+  width: 50%;
+}
+
+.col-offset-7 {
+  width: 58.33333%;
+}
+
+.col-offset-8 {
+  width: 66.66667%;
+}
+
+.col-offset-9 {
+  width: 75%;
+}
+
+.col-offset-10 {
+  width: 83.33333%;
+}
+
+.col-offset-11 {
+  width: 91.66667%;
+}
+
+.col-offset-12 {
+  width: 100%;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero {
+  background-image: url(../images/jumbotron.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  text-align: left;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.navigation {
+  padding-top: 50px;
+}
+
+.navigation ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding-left: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-jumbo {
+  background-color: #fed136;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 65px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.small-text-jumbo {
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  padding: 205px 0 25px;
+}
+
+.big-text-jumbo {
+  color: #fff;
+  font-size: 75px;
+  padding: 25px 0 30px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
