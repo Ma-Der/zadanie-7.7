@@ -198,3 +198,30 @@ body {
     width: 100%;
   }
 }
+
+// ABOUT US //
+
+.aboutus-dates {
+  border: 1px solid black;
+  height: 190px;
+  div {
+    border: 1px solid green;
+    height: 190px;
+  }
+  .pic-5 {
+    border: 10px solid #f1f1f1;
+    background-color: #fed136;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 190px;
+    .pic5-text {
+      color: white;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0 auto;
+      text-align: center;
+      width: 110px;
+    }
+  }
+}
