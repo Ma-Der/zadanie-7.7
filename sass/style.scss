@@ -167,8 +167,9 @@ body {
     font-size: 16px;
     font-style: italic;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     line-height: 30px;
+    padding: 20px 0;
   }
   .portfolio-gallery {
     display: flex;
@@ -201,12 +202,42 @@ body {
 
 // ABOUT US //
 
+.aboutus-title {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 120px;
+}
+.aboutus-text {
+  color: #9b9b9b;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 85px;
+  padding: 20px 0;
+}
+.pic-text-left {
+  text-align: right;
+}
+.pic-text-right {
+  text-align: left;
+}
+.pic-title-text {
+ line-height: 30px;
+}
+.pic-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 15px 0;
+  overflow: visible;
+}
 .aboutus-dates {
-  border: 1px solid black;
+  //border: 1px solid black;
   height: 190px;
   div {
-    border: 1px solid green;
+    //border: 1px solid green;
     height: 190px;
+    overflow: visible;
   }
   .pic-5 {
     border: 10px solid #f1f1f1;
@@ -224,7 +255,22 @@ body {
       width: 110px;
     }
   }
+  img {
+    border: 10px solid #f1f1f1;
+    border-radius: 100px;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+  }
 }
-.aboutus-line {
+.aboutus-freespace {
   height: 100px;
+  position: relative;
+  .aboutus-line {
+    background-color: #f1f1f1;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    width: 10px;
+  }
 }
