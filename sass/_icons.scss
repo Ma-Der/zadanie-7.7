@@ -1,0 +1,26 @@
+.logos {
+  margin: 60px 0;
+  .logos-contain {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .logos {
+    margin: 60px 0;
+    height: 100px;
+    .logos-contain {
+      display: flex;
+      justify-content: space-between;
+      height: 45px;
+      flex-wrap: wrap;
+    }
+    img {
+      padding: 15px;
+    }
+  }
+}

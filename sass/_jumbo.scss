@@ -1,0 +1,98 @@
+// JUMBOTRON //
+
+.hero {
+  background-image: url(../images/jumbotron.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+.btn-jumbo {
+  background-color: #fed136;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 65px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 240px;
+}
+.small-text-jumbo {
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  padding: 30vh 0 2.5vh;
+}
+.big-text-jumbo {
+  color: #fff;
+  font-size: 75px;
+  padding: 25px 0 30px;
+  text-transform: uppercase;
+}
+// NAVIGATION //
+
+.section-nav {
+  text-align: left;
+}
+
+.logo {
+  display: inline-block;
+}
+.navigation {
+  padding-top: 50px;
+  ul {
+    list-style: none;
+    float: right;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .small-text-jumbo {
+    padding: 5vh 0 2.5vh;
+    font-size: 25px;
+  }
+  .big-text-jumbo {
+    font-size: 35px;
+  }
+  .navigation {
+    height: 35vh;
+    padding-top: 10px;
+    margin: 0 auto;
+    overflow: visible;
+    text-align: center;
+
+    ul {
+      float: none;
+    }
+    li {
+      display: inline;
+      padding: 3px;
+    }
+    a {
+      margin-left: 0;
+    }
+  }
+  .btn-jumbo {
+    height: 65px;
+    margin-top: 10px;
+    width: 240px;
+  }
+
+}

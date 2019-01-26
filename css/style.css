@@ -1,13 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .clearfix::before
 .clearfix::after {
   content: "";
@@ -135,6 +125,81 @@ body {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .col-m-1 {
+    width: 8.33333%;
+  }
+  .col-m-2 {
+    width: 16.66667%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33333%;
+  }
+  .col-m-5 {
+    width: 41.66667%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33333%;
+  }
+  .col-m-8 {
+    width: 66.66667%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33333%;
+  }
+  .col-m-11 {
+    width: 91.66667%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+  .col-m-offset-0 {
+    width: 0%;
+  }
+  .col-m-offset-1 {
+    width: 8.33333%;
+  }
+  .col-m-offset-2 {
+    width: 16.66667%;
+  }
+  .col-m-offset-3 {
+    width: 25%;
+  }
+  .col-m-offset-4 {
+    width: 33.33333%;
+  }
+  .col-m-offset-5 {
+    width: 41.66667%;
+  }
+  .col-m-offset-6 {
+    width: 50%;
+  }
+  .col-m-offset-7 {
+    width: 58.33333%;
+  }
+  .col-m-offset-8 {
+    width: 66.66667%;
+  }
+  .col-m-offset-9 {
+    width: 75%;
+  }
+  .col-m-offset-10 {
+    width: 83.33333%;
+  }
+  .col-m-offset-11 {
+    width: 91.66667%;
+  }
+}
+
 .hero {
   background-image: url(../images/jumbotron.png);
   background-position: center;
@@ -203,6 +268,38 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+  .small-text-jumbo {
+    padding: 5vh 0 2.5vh;
+    font-size: 25px;
+  }
+  .big-text-jumbo {
+    font-size: 35px;
+  }
+  .navigation {
+    height: 35vh;
+    padding-top: 10px;
+    margin: 0 auto;
+    overflow: visible;
+    text-align: center;
+  }
+  .navigation ul {
+    float: none;
+  }
+  .navigation li {
+    display: inline;
+    padding: 3px;
+  }
+  .navigation a {
+    margin-left: 0;
+  }
+  .btn-jumbo {
+    height: 65px;
+    margin-top: 10px;
+    width: 240px;
+  }
+}
+
 .services-head {
   font-size: 40px;
   margin: 120px 0 20px;
@@ -265,39 +362,50 @@ body {
   padding: 20px 0;
 }
 
-.our-portfolio .portfolio-gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.our-portfolio .portfolio-gallery .gallery-title {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.our-portfolio .portfolio-gallery .gallery-row {
-  display: flex;
-  margin-bottom: 50px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.our-portfolio .portfolio-gallery .gall-1 {
-  background-color: white;
-  padding-bottom: 30px;
-  width: 290px;
-}
-
-.our-portfolio .portfolio-gallery .gall-1 .portfolio-text {
-  padding: 0;
-}
-
 .our-portfolio img {
   border: none;
   display: block;
   margin: 0 auto;
   height: 300px;
   width: 100%;
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-gallery .portfolio-gallery-title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.portfolio-gallery .gallery-row {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-gallery .portfolio-picture-container {
+  background-color: white;
+  padding-bottom: 30px;
+  width: 290px;
+}
+
+.portfolio-gallery .portfolio-picture-container .portfolio-text {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .portfolio-picture-container {
+    margin-bottom: 20px;
+  }
 }
 
 .about-us {
@@ -318,11 +426,11 @@ body {
   padding: 20px 0;
 }
 
-.pic-text-left {
+.aboutus-text-left {
   text-align: right;
 }
 
-.pic-text-right {
+.aboutus-text-right {
   text-align: left;
 }
 
@@ -382,8 +490,50 @@ body {
   background-color: #f1f1f1;
   height: 100px;
   position: absolute;
-  left: 49.8%;
+  left: 49.5%;
   width: 10px;
+}
+
+@media (max-width: 768px) {
+  .aboutus-dates {
+    display: block;
+  }
+  .aboutus-dates img {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  .aboutus-freespace {
+    height: 100px;
+  }
+  .aboutus-freespace .aboutus-line {
+    height: 110px;
+    width: 10px;
+  }
+  .aboutus-last-pic {
+    height: 0;
+  }
+  .aboutus-last-pic .aboutus-line {
+    height: 0;
+    width: 0;
+  }
+  .aboutus-freespace-horizontal {
+    position: relative;
+    height: 20px;
+  }
+  .aboutus-freespace-horizontal .aboutus-line-horizontal {
+    background-color: #f1f1f1;
+    height: 4px;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+  }
+  .aboutus-text-left {
+    text-align: center;
+  }
+  .aboutus-text-right {
+    text-align: center;
+  }
 }
 
 .our-amazing-team {
@@ -470,6 +620,22 @@ body {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .logos {
+    margin: 60px 0;
+    height: 100px;
+  }
+  .logos .logos-contain {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    flex-wrap: wrap;
+  }
+  .logos img {
+    padding: 15px;
+  }
+}
+
 .contact-us {
   background-color: #000;
   background-origin: content-box;
@@ -512,6 +678,24 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .form {
+    display: block;
+  }
+  .form input {
+    display: block;
+    margin-bottom: 30px;
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .form textarea {
+    height: 200px;
+    padding: 20px;
+    width: 50%;
+  }
+}
+
 .footer {
   margin: 20px 0 30px 0;
 }
@@ -544,176 +728,14 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .col-m-1 {
-    width: 8.33333%;
-  }
-  .col-m-2 {
-    width: 16.66667%;
-  }
-  .col-m-3 {
-    width: 25%;
-  }
-  .col-m-4 {
-    width: 33.33333%;
-  }
-  .col-m-5 {
-    width: 41.66667%;
-  }
-  .col-m-6 {
-    width: 50%;
-  }
-  .col-m-7 {
-    width: 58.33333%;
-  }
-  .col-m-8 {
-    width: 66.66667%;
-  }
-  .col-m-9 {
-    width: 75%;
-  }
-  .col-m-10 {
-    width: 83.33333%;
-  }
-  .col-m-11 {
-    width: 91.66667%;
-  }
-  .col-m-12 {
-    width: 100%;
-  }
-  .col-m-offset-0 {
-    width: 0%;
-  }
-  .col-m-offset-1 {
-    width: 8.33333%;
-  }
-  .col-m-offset-2 {
-    width: 16.66667%;
-  }
-  .col-m-offset-3 {
-    width: 25%;
-  }
-  .col-m-offset-4 {
-    width: 33.33333%;
-  }
-  .col-m-offset-5 {
-    width: 41.66667%;
-  }
-  .col-m-offset-6 {
-    width: 50%;
-  }
-  .col-m-offset-7 {
-    width: 58.33333%;
-  }
-  .col-m-offset-8 {
-    width: 66.66667%;
-  }
-  .col-m-offset-9 {
-    width: 75%;
-  }
-  .col-m-offset-10 {
-    width: 83.33333%;
-  }
-  .col-m-offset-11 {
-    width: 91.66667%;
-  }
-  .small-text-jumbo {
-    padding: 5vh 0 2.5vh;
-    font-size: 25px;
-  }
-  .big-text-jumbo {
-    font-size: 35px;
-  }
-  .navigation {
-    height: 35vh;
-    padding-top: 10px;
-    overflow: visible;
-    text-align: center;
-  }
-  .navigation ul {
-    float: none;
-  }
-  .navigation li {
-    display: inline;
-    padding: 3px;
-  }
-  .btn-jumbo {
-    height: 65px;
-    margin-top: 10px;
-    width: 240px;
-  }
-  .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 0;
-  }
-  .gall-1 {
-    margin-bottom: 20px;
-  }
-  .aboutus-dates {
-    display: block;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .aboutus-freespace {
-    height: 0;
-  }
-  .aboutus-freespace .aboutus-line {
-    height: 0;
-    width: 0;
-  }
-  .aboutus-freespace-m {
-    height: 100px;
-  }
-  .aboutus-freespace-m .aboutus-line-m {
-    height: 110px;
-    width: 10px;
-  }
-  .aboutus-freespace-horizontal-m {
-    position: relative;
-    height: 20px;
-  }
-  .aboutus-freespace-horizontal-m .aboutus-line-horizontal-m {
-    background-color: #f1f1f1;
-    height: 4px;
-    position: absolute;
-    left: 25%;
-    width: 50%;
-  }
-  .pic-text-left {
-    text-align: center;
-  }
-  .pic-text-right {
-    text-align: center;
-  }
-  .logos {
-    margin: 60px 0;
-    height: 100px;
-  }
-  .logos .logos-contain {
-    display: flex;
-    justify-content: space-between;
-    height: 45px;
-    flex-wrap: wrap;
-  }
-  .logos img {
-    padding: 15px;
-  }
-  .form {
-    display: block;
-  }
-  .form input {
-    display: block;
-    margin-bottom: 30px;
-    height: 50px;
-    padding: 0 20px;
-    width: 100%;
-  }
-  .form textarea {
-    height: 200px;
-    padding: 20px;
-    width: 100%;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
