@@ -616,23 +616,20 @@
 .logos .logos-contain {
   display: flex;
   justify-content: space-between;
-  height: 45px;
   flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
   .logos {
     margin: 60px 0;
-    height: 100px;
   }
   .logos .logos-contain {
     display: flex;
-    justify-content: space-between;
-    height: 45px;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
   }
   .logos img {
-    padding: 15px;
+    padding: 25px;
   }
 }
 
@@ -700,10 +697,14 @@
   margin: 20px 0 30px 0;
 }
 
+.footer .footer-text-container {
+  width: 100%;
+}
+
 .footer .footer-text {
   font-size: 14px;
-  text-align: left;
-  line-height: 40px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .footer .footer-icons {
@@ -726,6 +727,12 @@
 .footer i:hover {
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+    padding: 5px;
+  }
 }
 
 * {
