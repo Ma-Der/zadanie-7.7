@@ -26,8 +26,17 @@
     font-size: 14px;
     font-weight: bold;
   }
-  .btn-jumbo {
-    margin-top: 0;
+  .form-btn {
+    background-color: #fed136;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 65px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 240px;
   }
 }
 .form {

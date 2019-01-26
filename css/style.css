@@ -200,7 +200,7 @@
   }
 }
 
-.hero {
+.jumbo {
   background-image: url(../images/jumbotron.png);
   background-position: center;
   background-size: cover;
@@ -209,7 +209,7 @@
   text-align: center;
 }
 
-.btn-jumbo {
+.jumbo-btn {
   background-color: #fed136;
   border: none;
   border-radius: 5px;
@@ -222,7 +222,7 @@
   width: 240px;
 }
 
-.small-text-jumbo {
+.jumbo-small-text {
   color: #fff;
   font-family: 'Roboto Slab', serif;
   font-size: 40px;
@@ -231,14 +231,14 @@
   padding: 30vh 0 2.5vh;
 }
 
-.big-text-jumbo {
+.jumbo-big-text {
   color: #fff;
   font-size: 75px;
   padding: 25px 0 30px;
   text-transform: uppercase;
 }
 
-.section-nav {
+.nav-section {
   text-align: left;
 }
 
@@ -269,11 +269,11 @@
 }
 
 @media (max-width: 768px) {
-  .small-text-jumbo {
+  .jumbo-small-text {
     padding: 5vh 0 2.5vh;
     font-size: 25px;
   }
-  .big-text-jumbo {
+  .jumbo-big-text {
     font-size: 35px;
   }
   .navigation {
@@ -293,7 +293,7 @@
   .navigation a {
     margin-left: 0;
   }
-  .btn-jumbo {
+  .jumbo-btn {
     height: 65px;
     margin-top: 10px;
     width: 240px;
@@ -323,7 +323,7 @@
   margin-bottom: 60px;
 }
 
-.services-icons .btn-service {
+.services-icons .services-btn {
   background-color: #fff;
   border: 5px solid #fed136;
   border-radius: 50%;
@@ -332,7 +332,7 @@
   width: 73px;
 }
 
-.services-icons .icons-head-text {
+.services-icons .services-icons-head-text {
   font-size: 18px;
   padding-bottom: 10px;
 }
@@ -417,7 +417,7 @@
   text-align: center;
 }
 
-.aboutus-text {
+.aboutus-head-text {
   color: #9b9b9b;
   text-align: center;
   font-style: italic;
@@ -434,11 +434,11 @@
   text-align: left;
 }
 
-.pic-title-text {
+.aboutus-title-text {
   line-height: 30px;
 }
 
-.pic-text {
+.aboutus-text {
   color: #777;
   font-size: 14px;
   line-height: 20px;
@@ -454,7 +454,7 @@
   overflow: visible;
 }
 
-.aboutus-dates .pic-5 {
+.aboutus-dates .aboutus-last-pic {
   border: 10px solid #f1f1f1;
   background-color: #fed136;
   border-radius: 100%;
@@ -464,7 +464,7 @@
   width: 190px;
 }
 
-.aboutus-dates .pic-5 .pic5-text {
+.aboutus-dates .aboutus-last-pic .aboutus-last-pic-text {
   color: white;
   font-size: 18px;
   line-height: 30px;
@@ -510,10 +510,10 @@
     height: 110px;
     width: 10px;
   }
-  .aboutus-last-pic {
+  .aboutus-last-pic-freespace {
     height: 0;
   }
-  .aboutus-last-pic .aboutus-line {
+  .aboutus-last-pic-freespace .aboutus-line {
     height: 0;
     width: 0;
   }
@@ -539,6 +539,20 @@
 .our-amazing-team {
   background-color: #f9f9f9;
   padding-top: 120px;
+}
+
+.team-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.team-head-text {
+  color: #9b9b9b;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 85px;
+  padding: 20px 0;
 }
 
 .team-people {
@@ -666,8 +680,17 @@
   font-weight: bold;
 }
 
-.contact-us .btn-jumbo {
-  margin-top: 0;
+.contact-us .form-btn {
+  background-color: #fed136;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 65px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 240px;
 }
 
 .form {
